@@ -1,6 +1,4 @@
- 
-
- *{
+*{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -13,7 +11,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('4ed93a925416e114dd4f9657e9121c1b.jpg');
+    background: url('back.jpg');
     background-size: cover;
     background-position: center;
  }
