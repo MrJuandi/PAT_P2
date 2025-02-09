@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HiveTide</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
 </head>
 <body>
     
     <div class="wrapper">
-        <form id="loginForm" action="portal.html" method="GET" onsubmit="return redirectToPortal()">
+        <form id="loginForm" action="hmtl/portal.html" method="GET" onsubmit="return redirectToPortal()">
             <h1>LogIn</h1>
             <div class="input-box"> 
                 <input type="text" name="username" placeholder="Username" required="">
@@ -35,7 +35,7 @@
 
     <script>
         function redirectToPortal() {
-            window.location.href = 'portal.html';
+            window.location.href = 'html/portal.html';
             return false; // Evita el envío del formulario
         }
     </script>
